@@ -7,6 +7,7 @@
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
     <meta content="Free Website Template" name="keywords">
     <meta content="Free Website Template" name="description">
+    <script src="./js/index.js"></script>
 
     <!-- Favicon -->
     <link href="img/favicon.ico" rel="icon">
@@ -264,33 +265,23 @@
                     </div>
                 </div>
                 <div class="col-md-6 bg-secondary py-5">
-                    <div class="py-5 px-3">
-                        <h1 class="mb-4 text-white">Calculate your BMI</h1>
+                    <div id="IMC" class="py-5 px-3">
+                        <h1 class="mb-4 text-white">Calcula tu ICM</h1>
                         <form>
                             <div class="form-row">
                                 <div class="col form-group">
-                                    <input type="text" class="form-control form-control-lg bg-dark text-white" placeholder="Peso (KG)">
+                                    <input type="number" id="peso"  class="form-control form-control-lg bg-dark text-white" placeholder="Peso (KG)">
                                 </div>
                                 <div class="col form-group">
-                                    <input type="text" class="form-control form-control-lg bg-dark text-white" placeholder="Altura (CM)">
+                                    <input type="number" id="altura"  class="form-control form-control-lg bg-dark text-white" placeholder="Altura (CM)">
                                 </div>
                             </div>
                             <div class="form-row">
-                                <div class="col form-group">
-                                    <input type="text" class="form-control form-control-lg bg-dark text-white" placeholder="Edad">
-                                </div>
-                                <div class="col form-group">
-                                    <select class="custom-select custom-select-lg bg-dark text-muted">
-                                        <option>Genero</option>
-                                        <option>Masculino</option>
-                                        <option>Femenino</option>
-                                    </select>
-                                </div>
                             </div>
                             <div class="form-row">
                                 <div class="col">
                                     <input type="button" class="btn btn-lg btn-block btn-dark border-light"
-                                        value="Calcular" onclick="calculoICM">
+                                        value="Calcular" onclick="calcularIMC()">
                                 </div>
                             </div>
                         </form>
