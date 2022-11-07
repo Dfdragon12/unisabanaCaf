@@ -10,9 +10,7 @@ public class UsersController {
 
     @RequestMapping(value = "api/usuarios/{correo}", method = RequestMethod.GET)
     public Usuario getUsuario(@PathVariable String correo){
-        Usuario usuario = new Usuario();
-        usuario.setCorreo("mateomopa@unisabana.edu.co");
-        usuario.setPassword("1234");
+        Usuario usuario = new Usuario("mateomopa@unisabana.edu.co","1234");
         return usuario;
     }
 }

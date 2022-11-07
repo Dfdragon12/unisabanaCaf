@@ -4,11 +4,10 @@ $(document),ready(function(){
 
 
 async function iniciarSesion(){
-    var Email = document.getElementById('txtEmail').value;
-    var Password = document.getElementById('txtPass').value;
     let datos = {};
-    datos.email = Email;
-    datos.password = Password;
+
+    datos.email = document.getElementById('txtPass').value;
+    datos.password = document.getElementById('txtPass').value;
 
 
 

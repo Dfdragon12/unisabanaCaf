@@ -3,6 +3,7 @@ package co.edu.unisabana.caf.dao;
 import co.edu.unisabana.caf.models.Usuario;
 import org.springframework.stereotype.Repository;
 
+import java.util.ArrayList;
 import java.util.List;
 
 
@@ -10,20 +11,19 @@ import java.util.List;
 
 public class UsuarioDaoImp implements UsuarioDao{
 
+    Boolean resultado = false;
 
     @Override
-    public List<Usuario> getUsuario() {
-        return null;
-    }
-
-
-
-    @Override
-    public boolean credenciales (Usuario password) {
-        String correo = "mateomopa@unisbana.edu.co";
-        if (password.equals("1234") && correo.equals("mateomopa@unisabana.edu.co")) {
-            return true;
-        }
-        return false;
+    public boolean credenciales (Usuario usuario) {
+        List<Usuario> BD = new ArrayList<>();
+        System.out.println(usuario);
+        BD.add(new Usuario("mateomopa@unisabana.edu.co","1234"));
+        BD.add(new Usuario("juliamcupa@unisabana.edu.co", "4321"));
+        BD.forEach(dato -> {
+            if (usuario.getCorreo().equals(dato.getCorreo()) && usuario.getPassword().equals(dato.getPassword())) {
+                resultado = true;
+            }
+        });
+        return resultado;
     }
 }
