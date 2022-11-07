@@ -1,16 +1,8 @@
-$(document),ready(function(){
-    // on ready
-});
-
 
 async function iniciarSesion(){
-    var Email = document.getElementById('txtEmail').value;
-    var Password = document.getElementById('txtPass').value;
-    let datos = {};
-    datos.email = Email;
-    datos.password = Password;
-
-
+    var email = document.getElementById("123456").value;
+    var password = document.getElementById('txtPass').value;
+    var datos = {correo:email,password:password};
 
     const request = await fetch('api/login', {
         method: "Post",

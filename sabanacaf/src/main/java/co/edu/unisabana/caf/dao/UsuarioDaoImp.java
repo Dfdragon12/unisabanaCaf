@@ -16,9 +16,9 @@ public class UsuarioDaoImp implements UsuarioDao{
     @Override
     public boolean credenciales (Usuario usuario) {
         List<Usuario> BD = new ArrayList<>();
-        System.out.println(usuario);
         BD.add(new Usuario("mateomopa@unisabana.edu.co","1234"));
         BD.add(new Usuario("juliamcupa@unisabana.edu.co", "4321"));
+        BD.add(new Usuario("Dfdragon@unisabana.edu.co", "1111"));
         BD.forEach(dato -> {
             if (usuario.getCorreo().equals(dato.getCorreo()) && usuario.getPassword().equals(dato.getPassword())) {
                 resultado = true;

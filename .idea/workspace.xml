@@ -6,10 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="4500da7a-018d-4598-8c39-64a157ef9509" name="Default Changelist" comment="correcciones minimas">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sabanacaf/src/main/java/co/edu/unisabana/caf/controller/UsersController.java" beforeDir="false" afterPath="$PROJECT_DIR$/sabanacaf/src/main/java/co/edu/unisabana/caf/controller/UsersController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sabanacaf/src/main/java/co/edu/unisabana/caf/dao/UsuarioDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/sabanacaf/src/main/java/co/edu/unisabana/caf/dao/UsuarioDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sabanacaf/src/main/java/co/edu/unisabana/caf/dao/UsuarioDaoImp.java" beforeDir="false" afterPath="$PROJECT_DIR$/sabanacaf/src/main/java/co/edu/unisabana/caf/dao/UsuarioDaoImp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sabanacaf/src/main/java/co/edu/unisabana/caf/models/Usuario.java" beforeDir="false" afterPath="$PROJECT_DIR$/sabanacaf/src/main/java/co/edu/unisabana/caf/models/Usuario.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/sabanacaf/src/main/resources/static/js/login.js" beforeDir="false" afterPath="$PROJECT_DIR$/sabanacaf/src/main/resources/static/js/login.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/sabanacaf/src/main/resources/static/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/sabanacaf/src/main/resources/static/login.html" afterDir="false" />
     </list>
