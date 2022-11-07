@@ -7,7 +7,7 @@ import java.util.List;
 public interface UsuarioDao {
     List <Usuario> getUsuario();
 
-    void credenciales(Usuario usuario);
+    boolean credenciales(Usuario usuario);
 
 
 }

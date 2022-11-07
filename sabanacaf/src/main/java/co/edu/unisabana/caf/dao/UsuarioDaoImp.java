@@ -19,10 +19,11 @@ public class UsuarioDaoImp implements UsuarioDao{
 
 
     @Override
-    public void credenciales (Usuario password) {
+    public boolean credenciales (Usuario password) {
         String correo = "mateomopa@unisbana.edu.co";
         if (password.equals("1234") && correo.equals("mateomopa@unisabana.edu.co")) {
+            return true;
         }
-        return;
+        return false;
     }
 }
