@@ -1,16 +1,26 @@
 package co.edu.unisabana.caf.controller;
 
 import co.edu.unisabana.caf.models.Usuario;
+import co.edu.unisabana.caf.repository.UsuariosRepository;
 import org.springframework.web.bind.annotation.*;
+
+import java.util.ArrayList;
+import java.util.List;
 
 @RestController
 public class UsersController {
 
-
+    UsuariosRepository repository = new UsuariosRepository();
 
     @RequestMapping(value = "api/usuarios/{correo}", method = RequestMethod.GET)
-    public Usuario getUsuario(@PathVariable String correo){
-        Usuario usuario = new Usuario("mateomopa@unisabana.edu.co","1234");
+    public List<Usuario> getUsuario(@PathVariable String correo){
+        List<Usuario> usuarios = repository.BD();
+        List<Usuario> usuario = new ArrayList<>();
+        usuarios.forEach(dato -> {
+            if (dato.getCorreo().equals(correo)) {
+                usuario.add(dato);
+            }
+        });
         return usuario;
     }
 }

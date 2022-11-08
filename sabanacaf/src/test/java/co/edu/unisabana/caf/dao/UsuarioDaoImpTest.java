@@ -1,15 +1,14 @@
 package co.edu.unisabana.caf.dao;
 
 import co.edu.unisabana.caf.models.Usuario;
+import co.edu.unisabana.caf.repository.UsuariosRepository;
 import org.junit.jupiter.api.Test;
+import org.mockito.Mock;
+
 import static org.junit.jupiter.api.Assertions.*;
 public class UsuarioDaoImpTest {
+    private UsuarioDaoImp test = new UsuarioDaoImp();
 
-    private UsuarioDaoImp test ;
-
-    public UsuarioDaoImpTest(UsuarioDaoImp test) {
-        this.test = test;
-    }
 
     @Test
     public void Given_user_and_password_ok_When_credenciales_Then_return_true(){

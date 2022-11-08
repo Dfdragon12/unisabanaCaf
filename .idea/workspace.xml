@@ -4,7 +4,20 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4500da7a-018d-4598-8c39-64a157ef9509" name="Default Changelist" comment="Login funcionando" />
+    <list default="true" id="4500da7a-018d-4598-8c39-64a157ef9509" name="Default Changelist" comment="Login funcionando">
+      <change afterPath="$PROJECT_DIR$/sabanacaf/src/main/java/co/edu/unisabana/caf/repository/UsuariosRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sabanacaf/src/main/java/co/edu/unisabana/caf/controller/UsersController.java" beforeDir="false" afterPath="$PROJECT_DIR$/sabanacaf/src/main/java/co/edu/unisabana/caf/controller/UsersController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sabanacaf/src/main/java/co/edu/unisabana/caf/dao/UsuarioDaoImp.java" beforeDir="false" afterPath="$PROJECT_DIR$/sabanacaf/src/main/java/co/edu/unisabana/caf/dao/UsuarioDaoImp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sabanacaf/src/main/java/co/edu/unisabana/caf/models/Usuario.java" beforeDir="false" afterPath="$PROJECT_DIR$/sabanacaf/src/main/java/co/edu/unisabana/caf/models/Usuario.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sabanacaf/src/test/java/co/edu/unisabana/caf/SabanacafApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sabanacaf/src/test/java/co/edu/unisabana/caf/controller/UsersControllerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/sabanacaf/src/test/java/co/edu/unisabana/caf/controller/UsersControllerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sabanacaf/src/test/java/co/edu/unisabana/caf/dao/UsuarioDaoImpTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/sabanacaf/src/test/java/co/edu/unisabana/caf/dao/UsuarioDaoImpTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sabanacaf/target/classes/co/edu/unisabana/caf/controller/UsersController.class" beforeDir="false" afterPath="$PROJECT_DIR$/sabanacaf/target/classes/co/edu/unisabana/caf/controller/UsersController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sabanacaf/target/classes/co/edu/unisabana/caf/dao/UsuarioDaoImp.class" beforeDir="false" afterPath="$PROJECT_DIR$/sabanacaf/target/classes/co/edu/unisabana/caf/dao/UsuarioDaoImp.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sabanacaf/target/test-classes/co/edu/unisabana/caf/SabanacafApplicationTests.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sabanacaf/target/test-classes/co/edu/unisabana/caf/dao/UsuarioDaoImpTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/sabanacaf/target/test-classes/co/edu/unisabana/caf/dao/UsuarioDaoImpTest.class" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -50,23 +63,93 @@
       <recent name="$PROJECT_DIR$/sabanacaf/src/main/resources/static/js" />
     </key>
   </component>
-  <component name="RunManager">
-    <configuration name="SabanacafApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="co.edu.unisabana.caf.SabanacafApplication" />
+  <component name="RunManager" selected="JUnit.UsersControllerTest.Given_correo_wrong_When_getUsuario_then_return_null">
+    <configuration name="UsersControllerTest.Given_correo_ok_When_getUsuario_then_return_usuario" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="sabanacaf" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="co.edu.unisabana.caf.*" />
+          <option name="PATTERN" value="co.edu.unisabana.caf.controller.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="co.edu.unisabana.caf.controller" />
+      <option name="MAIN_CLASS_NAME" value="co.edu.unisabana.caf.controller.UsersControllerTest" />
+      <option name="METHOD_NAME" value="Given_correo_ok_When_getUsuario_then_return_usuario" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UsersControllerTest.Given_correo_wrong_When_getUsuario_then_return_null" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="sabanacaf" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="co.edu.unisabana.caf.controller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="co.edu.unisabana.caf.controller" />
+      <option name="MAIN_CLASS_NAME" value="co.edu.unisabana.caf.controller.UsersControllerTest" />
+      <option name="METHOD_NAME" value="Given_correo_wrong_When_getUsuario_then_return_null" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UsuarioDaoImpTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="sabanacaf" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="co.edu.unisabana.caf.dao.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="co.edu.unisabana.caf.dao" />
+      <option name="MAIN_CLASS_NAME" value="co.edu.unisabana.caf.dao.UsuarioDaoImpTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UsuarioDaoImpTest.Given_user_and_password_ok_When_credenciales_Then_return_true" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="sabanacaf" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="co.edu.unisabana.caf.dao.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="co.edu.unisabana.caf.dao" />
+      <option name="MAIN_CLASS_NAME" value="co.edu.unisabana.caf.dao.UsuarioDaoImpTest" />
+      <option name="METHOD_NAME" value="Given_user_and_password_ok_When_credenciales_Then_return_true" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UsuarioDaoImpTest.Given_user_ok_and_password_wrong_When_credenciales_Then_return_false" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="sabanacaf" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="co.edu.unisabana.caf.dao.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="co.edu.unisabana.caf.dao" />
+      <option name="MAIN_CLASS_NAME" value="co.edu.unisabana.caf.dao.UsuarioDaoImpTest" />
+      <option name="METHOD_NAME" value="Given_user_ok_and_password_wrong_When_credenciales_Then_return_false" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.SabanacafApplication" />
+        <item itemvalue="JUnit.UsersControllerTest.Given_correo_wrong_When_getUsuario_then_return_null" />
+        <item itemvalue="JUnit.UsersControllerTest.Given_correo_ok_When_getUsuario_then_return_usuario" />
+        <item itemvalue="JUnit.UsuarioDaoImpTest" />
+        <item itemvalue="JUnit.UsuarioDaoImpTest.Given_user_ok_and_password_wrong_When_credenciales_Then_return_false" />
+        <item itemvalue="JUnit.UsuarioDaoImpTest.Given_user_and_password_ok_When_credenciales_Then_return_true" />
       </list>
     </recent_temporary>
   </component>
