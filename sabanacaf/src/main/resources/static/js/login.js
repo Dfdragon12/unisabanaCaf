@@ -24,3 +24,8 @@ async function iniciarSesion(){
     }
 
 }
+
+async function Reserva(){
+if(iniciarSesion() == "Ok"){
+}
+}

@@ -12,7 +12,7 @@ public class UsersController {
 
     UsuariosRepository repository = new UsuariosRepository();
 
-    @RequestMapping(value = "api/usuarios/{correo}", method = RequestMethod.GET)
+    @RequestMapping(value = "api/reserva", method = RequestMethod.GET)
     public List<Usuario> getUsuario(@PathVariable String correo){
         List<Usuario> usuarios = repository.BD();
         List<Usuario> usuario = new ArrayList<>();
