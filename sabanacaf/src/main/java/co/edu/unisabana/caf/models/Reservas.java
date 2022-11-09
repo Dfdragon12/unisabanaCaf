@@ -10,4 +10,12 @@ public class Reservas {
         this.hora = hora;
         this.correo = correo;
     }
+
+    public String getDia() {
+        return dia;
+    }
+
+    public String getHora() {
+        return hora;
+    }
 }

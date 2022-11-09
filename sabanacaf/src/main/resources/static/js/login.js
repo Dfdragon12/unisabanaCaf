@@ -26,6 +26,32 @@ async function iniciarSesion(){
 }
 
 async function Reserva(){
-if(iniciarSesion() == "Ok"){
+
+var dia = document.getElementById("diaReserva").value;
+var hora = document.getElementById("horaReserva").value;
+var email = document.getElementById("123456").value;
+var reserva = {correo:email,dia:dia,hora:hora};
+if(iniciarSesion == "Ok"){
+    const request2 = await fetch('api/reserva', {
+        method: "Post",
+        headers:{
+            'Accept': 'application/json',
+            'Content-Type': 'application/json'
+
+        },
+
+        body: JSON.stringify(reserva)
+
+    });
+
+    const respuesta2 = await request2.text();
+    if (respuesta2 == 'OK'){
+        alert("Su reserva se realizo con exito")
+    }else{
+        alert ("Fallo en elaborar la reserva")
+    }
+
+}else{
+    alert("Inicio de sesion requerido")
 }
 }

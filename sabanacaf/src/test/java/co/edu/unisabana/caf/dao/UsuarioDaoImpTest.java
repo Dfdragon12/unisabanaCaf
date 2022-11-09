@@ -1,9 +1,8 @@
 package co.edu.unisabana.caf.dao;
 
 import co.edu.unisabana.caf.models.Usuario;
-import co.edu.unisabana.caf.repository.UsuariosRepository;
 import org.junit.jupiter.api.Test;
-import org.mockito.Mock;
+
 
 import static org.junit.jupiter.api.Assertions.*;
 public class UsuarioDaoImpTest {

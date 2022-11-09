@@ -177,7 +177,7 @@
                         <form>
                             <div class="form-row">
                                 <div class="col form-group">
-                                    <select class="custom-select custom-select-lg bg-dark text-muted">
+                                    <select id="diaReserva" class="custom-select custom-select-lg bg-dark text-muted">
                                         <option>Lunes</option>
                                         <option>Martes</option>
                                         <option>Miercoles</option>
@@ -186,7 +186,7 @@
                                     </select>
                                 </div>
                                 <div class="col form-group">
-                                    <select class="custom-select custom-select-lg bg-dark text-muted">
+                                    <select id="horaReserva" class="custom-select custom-select-lg bg-dark text-muted">
                                         <option>7:00 am </option>
                                         <option>8:00 am</option>
                                         <option>9:00 am</option>
@@ -203,7 +203,7 @@
                             </div>
                             <div class="form-row">
                                 <div class="col">
-                                    <input type="button" class="btn btn-lg btn-block btn-dark border-light"
+                                    <input onclick="Reserva()" type="button" class="btn btn-lg btn-block btn-dark border-light"
                                            value="Agenda tu cita Ahora !">
                                 </div>
                             </div>
@@ -266,6 +266,7 @@
 
     <!-- Template Javascript -->
     <script src="js/main.js"></script>
+    <script src="./js/login.js"></script>
 </body>
 
 </html>
