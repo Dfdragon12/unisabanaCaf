@@ -14,20 +14,8 @@ public class Usuario {
         return correo;
     }
 
-    public void setCorreo(String correo) {
-        this.correo = correo;
-    }
-
     public String getPassword() {
         return password;
     }
 
-    public void setPassword(String password) {
-        this.password = password;
-    }
-
-    @Override
-    public String toString() {
-        return "correo='" + correo + '\'' + ", password='" + password + '\'';
-    }
 }

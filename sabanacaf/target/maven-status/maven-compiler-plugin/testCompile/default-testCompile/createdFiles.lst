@@ -1,1 +1,3 @@
-co\edu\unisabana\caf\SabanacafApplicationTests.class
+co\edu\unisabana\caf\controller\AuthControllerTest.class
+co\edu\unisabana\caf\controller\UsersControllerTest.class
+co\edu\unisabana\caf\dao\UsuarioDaoImpTest.class

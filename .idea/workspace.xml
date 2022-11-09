@@ -5,23 +5,89 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4500da7a-018d-4598-8c39-64a157ef9509" name="Default Changelist" comment="Login funcionando">
-      <change afterPath="$PROJECT_DIR$/sabanacaf/src/main/java/co/edu/unisabana/caf/repository/UsuariosRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sabanacaf/src/main/java/co/edu/unisabana/caf/controller/UsersController.java" beforeDir="false" afterPath="$PROJECT_DIR$/sabanacaf/src/main/java/co/edu/unisabana/caf/controller/UsersController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sabanacaf/src/main/java/co/edu/unisabana/caf/dao/UsuarioDaoImp.java" beforeDir="false" afterPath="$PROJECT_DIR$/sabanacaf/src/main/java/co/edu/unisabana/caf/dao/UsuarioDaoImp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sabanacaf/src/main/java/co/edu/unisabana/caf/models/Usuario.java" beforeDir="false" afterPath="$PROJECT_DIR$/sabanacaf/src/main/java/co/edu/unisabana/caf/models/Usuario.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sabanacaf/src/test/java/co/edu/unisabana/caf/SabanacafApplicationTests.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sabanacaf/src/test/java/co/edu/unisabana/caf/controller/UsersControllerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/sabanacaf/src/test/java/co/edu/unisabana/caf/controller/UsersControllerTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sabanacaf/src/test/java/co/edu/unisabana/caf/dao/UsuarioDaoImpTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/sabanacaf/src/test/java/co/edu/unisabana/caf/dao/UsuarioDaoImpTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sabanacaf/target/classes/co/edu/unisabana/caf/controller/UsersController.class" beforeDir="false" afterPath="$PROJECT_DIR$/sabanacaf/target/classes/co/edu/unisabana/caf/controller/UsersController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sabanacaf/target/classes/co/edu/unisabana/caf/dao/UsuarioDaoImp.class" beforeDir="false" afterPath="$PROJECT_DIR$/sabanacaf/target/classes/co/edu/unisabana/caf/dao/UsuarioDaoImp.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sabanacaf/target/test-classes/co/edu/unisabana/caf/SabanacafApplicationTests.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sabanacaf/target/test-classes/co/edu/unisabana/caf/dao/UsuarioDaoImpTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/sabanacaf/target/test-classes/co/edu/unisabana/caf/dao/UsuarioDaoImpTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sabanacaf/.gradle/7.4/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/sabanacaf/.gradle/7.4/executionHistory/executionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sabanacaf/.gradle/7.4/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/sabanacaf/.gradle/7.4/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sabanacaf/.gradle/7.4/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/sabanacaf/.gradle/7.4/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sabanacaf/.gradle/7.4/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/sabanacaf/.gradle/7.4/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sabanacaf/.gradle/7.4/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/sabanacaf/.gradle/7.4/fileHashes/resourceHashesCache.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sabanacaf/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/sabanacaf/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sabanacaf/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/sabanacaf/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sabanacaf/build/classes/java/test/co/edu/unisabana/caf/SabanacafApplicationTests.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sabanacaf/build/resources/main/static/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/sabanacaf/build/resources/main/static/about.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sabanacaf/build/resources/main/static/blog.html" beforeDir="false" afterPath="$PROJECT_DIR$/sabanacaf/build/resources/main/static/blog.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sabanacaf/build/resources/main/static/class.html" beforeDir="false" afterPath="$PROJECT_DIR$/sabanacaf/build/resources/main/static/class.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sabanacaf/build/resources/main/static/contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/sabanacaf/build/resources/main/static/contact.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sabanacaf/build/resources/main/static/feature.html" beforeDir="false" afterPath="$PROJECT_DIR$/sabanacaf/build/resources/main/static/feature.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sabanacaf/build/resources/main/static/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/sabanacaf/build/resources/main/static/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sabanacaf/build/resources/main/static/scss/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/sabanacaf/build/resources/main/static/scss/style.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sabanacaf/build/resources/main/static/single.html" beforeDir="false" afterPath="$PROJECT_DIR$/sabanacaf/build/resources/main/static/single.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sabanacaf/build/tmp/compileJava/previous-compilation-data.bin" beforeDir="false" afterPath="$PROJECT_DIR$/sabanacaf/build/tmp/compileJava/previous-compilation-data.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sabanacaf/build/tmp/compileTestJava/previous-compilation-data.bin" beforeDir="false" afterPath="$PROJECT_DIR$/sabanacaf/build/tmp/compileTestJava/previous-compilation-data.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sabanacaf/target/jacoco.exec" beforeDir="false" afterPath="$PROJECT_DIR$/sabanacaf/target/jacoco.exec" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sabanacaf/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/sabanacaf/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sabanacaf/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/sabanacaf/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sabanacaf/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/sabanacaf/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sabanacaf/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/sabanacaf/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sabanacaf/target/sabanacaf-0.0.1-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/sabanacaf/target/sabanacaf-0.0.1-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sabanacaf/target/sabanacaf-0.0.1-SNAPSHOT.jar.original" beforeDir="false" afterPath="$PROJECT_DIR$/sabanacaf/target/sabanacaf-0.0.1-SNAPSHOT.jar.original" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sabanacaf/target/site/jacoco/co.edu.unisabana.caf/SabanacafApplication.html" beforeDir="false" afterPath="$PROJECT_DIR$/sabanacaf/target/site/jacoco/co.edu.unisabana.caf/SabanacafApplication.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sabanacaf/target/site/jacoco/co.edu.unisabana.caf/SabanacafApplication.java.html" beforeDir="false" afterPath="$PROJECT_DIR$/sabanacaf/target/site/jacoco/co.edu.unisabana.caf/SabanacafApplication.java.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sabanacaf/target/site/jacoco/co.edu.unisabana.caf/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/sabanacaf/target/site/jacoco/co.edu.unisabana.caf/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sabanacaf/target/site/jacoco/co.edu.unisabana.caf/index.source.html" beforeDir="false" afterPath="$PROJECT_DIR$/sabanacaf/target/site/jacoco/co.edu.unisabana.caf/index.source.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sabanacaf/target/site/jacoco/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/sabanacaf/target/site/jacoco/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sabanacaf/target/site/jacoco/jacoco-resources/prettify.css" beforeDir="false" afterPath="$PROJECT_DIR$/sabanacaf/target/site/jacoco/jacoco-resources/prettify.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sabanacaf/target/site/jacoco/jacoco-resources/prettify.js" beforeDir="false" afterPath="$PROJECT_DIR$/sabanacaf/target/site/jacoco/jacoco-resources/prettify.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sabanacaf/target/site/jacoco/jacoco-resources/report.css" beforeDir="false" afterPath="$PROJECT_DIR$/sabanacaf/target/site/jacoco/jacoco-resources/report.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sabanacaf/target/site/jacoco/jacoco-resources/sort.js" beforeDir="false" afterPath="$PROJECT_DIR$/sabanacaf/target/site/jacoco/jacoco-resources/sort.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sabanacaf/target/site/jacoco/jacoco-sessions.html" beforeDir="false" afterPath="$PROJECT_DIR$/sabanacaf/target/site/jacoco/jacoco-sessions.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sabanacaf/target/site/jacoco/jacoco.csv" beforeDir="false" afterPath="$PROJECT_DIR$/sabanacaf/target/site/jacoco/jacoco.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sabanacaf/target/site/jacoco/jacoco.xml" beforeDir="false" afterPath="$PROJECT_DIR$/sabanacaf/target/site/jacoco/jacoco.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sabanacaf/target/surefire-reports/2022-10-10T18-13-34_399-jvmRun1.dump" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sabanacaf/target/surefire-reports/TEST-co.edu.unisabana.caf.SabanacafApplicationTests.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sabanacaf/target/surefire-reports/co.edu.unisabana.caf.SabanacafApplicationTests.txt" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$/sabanacaf">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$/sabanacaf">
+          <activation />
+        </task>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="sabanacaf" type="f1a62948:ProjectNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="sabanacaf" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="sabanacaf" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="build" type="c8890929:TasksNode$1" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -63,7 +129,49 @@
       <recent name="$PROJECT_DIR$/sabanacaf/src/main/resources/static/js" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.UsersControllerTest.Given_correo_wrong_When_getUsuario_then_return_null">
+  <component name="RunManager" selected="Gradle.Tests in 'sabanacaf.test'">
+    <configuration name="Tests in 'sabanacaf.test'" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/sabanacaf" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="sabanacaf [build]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/sabanacaf" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="build" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
     <configuration name="UsersControllerTest.Given_correo_ok_When_getUsuario_then_return_usuario" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="sabanacaf" />
       <extension name="coverage">
@@ -111,45 +219,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UsuarioDaoImpTest.Given_user_and_password_ok_When_credenciales_Then_return_true" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="sabanacaf" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="co.edu.unisabana.caf.dao.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="co.edu.unisabana.caf.dao" />
-      <option name="MAIN_CLASS_NAME" value="co.edu.unisabana.caf.dao.UsuarioDaoImpTest" />
-      <option name="METHOD_NAME" value="Given_user_and_password_ok_When_credenciales_Then_return_true" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="UsuarioDaoImpTest.Given_user_ok_and_password_wrong_When_credenciales_Then_return_false" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="sabanacaf" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="co.edu.unisabana.caf.dao.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="co.edu.unisabana.caf.dao" />
-      <option name="MAIN_CLASS_NAME" value="co.edu.unisabana.caf.dao.UsuarioDaoImpTest" />
-      <option name="METHOD_NAME" value="Given_user_ok_and_password_wrong_When_credenciales_Then_return_false" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.Tests in 'sabanacaf.test'" />
+        <item itemvalue="Gradle.sabanacaf [build]" />
         <item itemvalue="JUnit.UsersControllerTest.Given_correo_wrong_When_getUsuario_then_return_null" />
         <item itemvalue="JUnit.UsersControllerTest.Given_correo_ok_When_getUsuario_then_return_usuario" />
         <item itemvalue="JUnit.UsuarioDaoImpTest" />
-        <item itemvalue="JUnit.UsuarioDaoImpTest.Given_user_ok_and_password_wrong_When_credenciales_Then_return_false" />
-        <item itemvalue="JUnit.UsuarioDaoImpTest.Given_user_and_password_ok_When_credenciales_Then_return_true" />
       </list>
     </recent_temporary>
   </component>
