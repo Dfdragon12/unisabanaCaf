@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="co.edu.unisabana.caf.controller.ReservaControllerTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2022-11-09T19:29:41" hostname="LAPTOP-R9DSJGVI" time="0.026">
+<testsuite name="co.edu.unisabana.caf.controller.ReservaControllerTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2022-11-11T23:17:28" hostname="LAPTOP-R9DSJGVI" time="0.032">
   <properties/>
-  <testcase name="Given_false_When_getsReserva_then_return_Fail()" classname="co.edu.unisabana.caf.controller.ReservaControllerTest" time="0.023"/>
+  <testcase name="Given_false_When_getsReserva_then_return_Fail()" classname="co.edu.unisabana.caf.controller.ReservaControllerTest" time="0.029"/>
   <testcase name="Given_true_When_getsReserva_then_return_OK()" classname="co.edu.unisabana.caf.controller.ReservaControllerTest" time="0.002"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>

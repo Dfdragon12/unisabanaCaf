@@ -7,8 +7,9 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class ReservaRepository {
+
+    List<Reservas> BD = new ArrayList<>();
     public List<Reservas> BD(){
-        List<Reservas> BD = new ArrayList<>();
         BD.add(new Reservas("Lunes","7am","juliamcupa@unisabana.edu.co"));
         BD.add(new Reservas("Lunes","10am","juliamcupa@unisabana.edu.co"));
         BD.add(new Reservas("Martes","7am","juliamcupa@unisabana.edu.co"));
