@@ -1,13 +1,13 @@
 package co.edu.unisabana.caf.dao;
 
 import co.edu.unisabana.caf.models.Reservas;
-import co.edu.unisabana.caf.repository.ReservaRepository;
+import co.edu.unisabana.caf.repository.CAFRepository;
 
 import java.util.List;
 
 public class ReservaDaoImp implements ReservasDao{
 
-    ReservaRepository repository = new ReservaRepository();
+    CAFRepository repository = new CAFRepository();
     boolean resultado = true;
     @Override
     public boolean verificarReserva(Reservas reservas) {

@@ -1,12 +1,11 @@
 package co.edu.unisabana.caf.repository;
 
 import co.edu.unisabana.caf.models.Reservas;
-import co.edu.unisabana.caf.models.Usuario;
 
 import java.util.ArrayList;
 import java.util.List;
 
-public class ReservaRepository {
+public class CAFRepository {
 
     List<Reservas> BD = new ArrayList<>();
     public List<Reservas> BD(){
