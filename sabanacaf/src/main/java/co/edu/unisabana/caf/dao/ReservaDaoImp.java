@@ -8,7 +8,7 @@ import java.util.List;
 public class ReservaDaoImp implements ReservasDao{
 
     CAFRepository repository = new CAFRepository();
-    boolean resultado = true;
+    boolean resultado=true;
     @Override
     public boolean verificarReserva(Reservas reservas) {
     List<Reservas> existentes = repository.BD();
@@ -17,6 +17,10 @@ public class ReservaDaoImp implements ReservasDao{
                 resultado = false;
             }
         });
+        if(resultado){
+            repository.crearReserva(reservas);
+        }
         return resultado;
     }
+
 }

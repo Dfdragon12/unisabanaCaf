@@ -7,11 +7,16 @@ import java.util.List;
 
 public class CAFRepository {
 
-    List<Reservas> BD = new ArrayList<>();
+    List<Reservas> BDReservas = new ArrayList<>();
     public List<Reservas> BD(){
-        BD.add(new Reservas("Lunes","7am","juliamcupa@unisabana.edu.co"));
-        BD.add(new Reservas("Lunes","10am","juliamcupa@unisabana.edu.co"));
-        BD.add(new Reservas("Martes","7am","juliamcupa@unisabana.edu.co"));
-        return BD;
+        BDReservas.add(new Reservas("Lunes","7am","juliamcupa@unisabana.edu.co"));
+        BDReservas.add(new Reservas("Lunes","10am","juliamcupa@unisabana.edu.co"));
+        BDReservas.add(new Reservas("Martes","7am","juliamcupa@unisabana.edu.co"));
+        return BDReservas;
     }
+
+    public void crearReserva(Reservas reserva){
+        BDReservas.add(reserva);
+    }
+
 }

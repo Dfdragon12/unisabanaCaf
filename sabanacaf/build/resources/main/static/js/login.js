@@ -31,7 +31,6 @@ var dia = document.getElementById("diaReserva").value;
 var hora = document.getElementById("horaReserva").value;
 var email = document.getElementById("123456").value;
 var reserva = {correo:email,dia:dia,hora:hora};
-if(iniciarSesion == "Ok"){
     const request2 = await fetch('api/reserva', {
         method: "Post",
         headers:{
@@ -51,7 +50,4 @@ if(iniciarSesion == "Ok"){
         alert ("Fallo en elaborar la reserva")
     }
 
-}else{
-    alert("Inicio de sesion requerido")
-}
 }

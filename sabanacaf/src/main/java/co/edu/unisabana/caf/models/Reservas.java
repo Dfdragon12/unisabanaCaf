@@ -1,6 +1,7 @@
 package co.edu.unisabana.caf.models;
 
 public class Reservas {
+
     private String dia;
     private String hora;
     private String correo;

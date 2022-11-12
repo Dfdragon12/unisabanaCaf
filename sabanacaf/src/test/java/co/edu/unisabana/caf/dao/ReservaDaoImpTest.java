@@ -12,6 +12,7 @@ public class ReservaDaoImpTest {
     public void Given_day_and_time_ok_When_verificarReserva_Then_return_true(){
         Reservas reserva = new Reservas("Viernes","8am","juliamcupa@unisabana.edu.co");
         assertTrue(test.verificarReserva(reserva));
+
     }
 
     @Test
