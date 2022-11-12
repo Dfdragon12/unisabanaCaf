@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4500da7a-018d-4598-8c39-64a157ef9509" name="Default Changelist" comment="Login funcionando">
-      <change beforePath="$PROJECT_DIR$/sabanacaf/src/main/java/co/edu/unisabana/caf/dao/ReservaDaoImp.java" beforeDir="false" afterPath="$PROJECT_DIR$/sabanacaf/src/main/java/co/edu/unisabana/caf/dao/ReservaDaoImp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sabanacaf/src/main/java/co/edu/unisabana/caf/repository/ReservaRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/sabanacaf/src/main/java/co/edu/unisabana/caf/repository/CAFRepository.java" afterDir="false" />
-    </list>
+    <list default="true" id="4500da7a-018d-4598-8c39-64a157ef9509" name="Default Changelist" comment="Login funcionando" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />

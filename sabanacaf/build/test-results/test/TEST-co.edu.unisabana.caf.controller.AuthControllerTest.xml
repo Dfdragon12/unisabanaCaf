@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="co.edu.unisabana.caf.controller.AuthControllerTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2022-11-12T15:01:27" hostname="LAPTOP-R9DSJGVI" time="1.521">
+<testsuite name="co.edu.unisabana.caf.controller.AuthControllerTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2022-11-12T18:11:27" hostname="LAPTOP-R9DSJGVI" time="2.138">
   <properties/>
-  <testcase name="Given_false_When_login_Then_return_fail()" classname="co.edu.unisabana.caf.controller.AuthControllerTest" time="1.517"/>
-  <testcase name="Given_true_When_login_Then_return_ok()" classname="co.edu.unisabana.caf.controller.AuthControllerTest" time="0.002"/>
+  <testcase name="Given_false_When_login_Then_return_fail()" classname="co.edu.unisabana.caf.controller.AuthControllerTest" time="2.132"/>
+  <testcase name="Given_true_When_login_Then_return_ok()" classname="co.edu.unisabana.caf.controller.AuthControllerTest" time="0.004"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

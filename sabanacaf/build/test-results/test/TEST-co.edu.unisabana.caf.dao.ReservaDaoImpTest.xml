@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="co.edu.unisabana.caf.dao.ReservaDaoImpTest" tests="4" skipped="0" failures="0" errors="0" timestamp="2022-11-12T15:01:29" hostname="LAPTOP-R9DSJGVI" time="0.008">
+<testsuite name="co.edu.unisabana.caf.dao.ReservaDaoImpTest" tests="4" skipped="0" failures="0" errors="0" timestamp="2022-11-12T18:11:29" hostname="LAPTOP-R9DSJGVI" time="0.009">
   <properties/>
-  <testcase name="Given_day_and_time_wrong_When_verificarRserva_Then_return_false()" classname="co.edu.unisabana.caf.dao.ReservaDaoImpTest" time="0.001"/>
+  <testcase name="Given_day_and_time_wrong_When_verificarRserva_Then_return_false()" classname="co.edu.unisabana.caf.dao.ReservaDaoImpTest" time="0.002"/>
   <testcase name="Given_day_wrong_and_time_ok_When_verificarReserva_Then_return_true()" classname="co.edu.unisabana.caf.dao.ReservaDaoImpTest" time="0.002"/>
   <testcase name="Given_day_ok_and_time_wrong_When_verificarReserva_Then_return_true()" classname="co.edu.unisabana.caf.dao.ReservaDaoImpTest" time="0.001"/>
   <testcase name="Given_day_and_time_ok_When_verificarReserva_Then_return_true()" classname="co.edu.unisabana.caf.dao.ReservaDaoImpTest" time="0.001"/>
