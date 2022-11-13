@@ -1,7 +1,0 @@
-GROUP,PACKAGE,CLASS,INSTRUCTION_MISSED,INSTRUCTION_COVERED,BRANCH_MISSED,BRANCH_COVERED,LINE_MISSED,LINE_COVERED,COMPLEXITY_MISSED,COMPLEXITY_COVERED,METHOD_MISSED,METHOD_COVERED
-sabanacaf,co.edu.unisabana.caf.models,Usuario,29,0,0,0,11,0,6,0,6,0
-sabanacaf,co.edu.unisabana.caf.dao,UsuarioDaoImp,0,42,0,4,0,9,0,5,0,3
-sabanacaf,co.edu.unisabana.caf.repository,UsuariosRepository,0,33,0,0,0,6,0,2,0,2
-sabanacaf,co.edu.unisabana.caf.controller,UsersController,0,33,0,2,0,9,0,4,0,3
-sabanacaf,co.edu.unisabana.caf.controller,AuthController,0,12,0,2,0,4,0,3,0,2
-sabanacaf,co.edu.unisabana.caf,SabanacafApplication,8,0,0,0,3,0,2,0,2,0
