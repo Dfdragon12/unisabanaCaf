@@ -11,12 +11,6 @@
         <module name="unisabanaCaf1.test" />
         <module name="unisabanaCaf1.main" />
       </profile>
-      <profile name="Maven default annotation processors profile" enabled="true">
-        <sourceOutputDir name="target/generated-sources/annotations" />
-        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
-        <outputRelativeToContentRoot value="true" />
-        <module name="unisabanaCaf1" />
-      </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="1.8">
       <module name="sabanacaf" target="11" />
