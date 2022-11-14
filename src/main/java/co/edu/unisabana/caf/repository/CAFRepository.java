@@ -10,8 +10,8 @@ public class CAFRepository {
     List<Reservas> BDReservas = new ArrayList<>();
     public List<Reservas> BD(){
         BDReservas.add(new Reservas("Lunes","7am","juliamcupa@unisabana.edu.co"));
-        BDReservas.add(new Reservas("Lunes","10am","juliamcupa@unisabana.edu.co"));
-        BDReservas.add(new Reservas("Martes","7am","juliamcupa@unisabana.edu.co"));
+        BDReservas.add(new Reservas("Lunes","10am","diegoroab@unisabana.edu.co"));
+        BDReservas.add(new Reservas("Martes","7am","mateomopa@unisabana.edu.co"));
         return BDReservas;
     }
 
